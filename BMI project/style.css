@@ -1,0 +1,88 @@
+:root {
+    --light: #f8f9fa; 
+    --dark: #212529; 
+    --white: #fff;
+    --blue: #0d6efd; 
+    --success-color: #167247; 
+    --warning-color: #ad8715; 
+    --danger-color: #912530;
+    border: 0;
+    margin: 0;
+}
+body { font-family:Arial, Helvetica, sans-serif;
+        background-image:linear-gradient(to right, #a118ad , #e497f5 , #e1aee4); 
+        padding: 50px
+    }
+
+.container { max-width: 330px; 
+    margin: auto;
+    margin-top: 20px;
+    }
+.card { background: #a75b9f; 
+    padding: 30px; 
+    border-radius: 16px; 
+    box-shadow: 0 4px 6px rgba(15, 15, 15, 0.1);
+    transition: transform .3s ease ; 
+    }
+.card:hover{transform: translate(8px,-8px);
+    box-shadow: 0px 10px 20px rgba(246, 247, 248, 0);
+}
+h3 {color: #f4d0fc;
+    font-size: 17px;
+    }
+h3:hover{color: #6e1e7e;}
+.center { text-align: center; }
+.mb { margin-bottom: 1rem; }
+.label { display: block;
+            margin-bottom: 1rem; 
+            margin-left: 30px;
+            font-weight: 550; 
+            color: #6f1c80;
+        }
+.dir {direction: ltr;
+        }
+.style { display: block; 
+        margin: auto; 
+        padding: 5px; 
+        font-size: .9rem; 
+        border: 1px solid #ced4da; 
+        border-radius: 10px; 
+        box-sizing: border-box; 
+        text-align: center;
+        background-color: #f4d0fc;
+    }
+.style:focus { border-color: #4d3450; 
+    outline: 0; 
+    box-shadow: 0 0 0 1.5px #4d3450; 
+    }
+.btn { color: #6e1e7e; 
+    background-color: #f4d0fc; 
+    border: none; 
+    padding: 7px; 
+    font-size: .9rem; 
+    border-radius: 10px;
+    position: relative;
+    right: 31px; 
+    width: 200px; 
+    margin: 15px 0;
+    cursor: pointer; 
+    font-weight: bold; 
+    }
+.btn:hover { 
+    color: #f4d0fc; 
+    background-color: #6e1e7e; 
+    }
+.alert { 
+    display: none;
+    padding: 1rem; 
+    margin-top: 1rem; 
+    border-radius: .375rem;  
+    text-align: center; 
+    font-weight: bold; 
+    }
+.success-color {  
+    color: var(--success-color) }
+.warning-color {  
+    color: var(--warning-color) }
+.danger-color { 
+    color: var(--danger-color); }
